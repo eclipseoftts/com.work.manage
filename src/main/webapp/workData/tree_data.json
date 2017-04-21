@@ -1,0 +1,37 @@
+
+[{
+    "id":1,
+    "parendId":0,
+    "text":"工作汇报",
+    "iconCls":"icon-save",
+    "children":[{
+		"text":"库存量",
+		"parendId":1,
+		"checked":true
+    },{
+		"text":"成交量",
+		"parendId":2,
+		"state":"open",
+		"attributes":{
+			"url":"/demo/book/abc",
+			"price":100
+		},
+		"children":[{
+			"text":"累计成就",
+			"checked":true
+		}]
+    }]
+},{
+    "text":"百度一下",
+    "parendId":3,
+    "state":"closed",
+    "attributes":{
+			"url":"http://www.baidu.com",
+			"price":100
+		},
+    "children":[{
+		"text":"Java"
+    },{
+		"text":"C#"
+    }]
+}]
